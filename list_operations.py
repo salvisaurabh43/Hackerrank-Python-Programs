@@ -3,12 +3,12 @@ if __name__ == '__main__':
     
     commands = []
     records = []
+    
+
     for i in range(N):
         commands.append(input().split())
         
-        
-    
-        
+         
     for command in commands:
         if(command[0] == 'print'):
             print(records)
