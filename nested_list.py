@@ -12,7 +12,7 @@ if __name__ == '__main__':
         records.append(inner_list)
 
 
-    #sort by occuerences and if occurences are same then sort by alplhabet
+    #sort by occuerences and if occurences are same then sort by alphabet
     
     for i in range(len(records)):
         for j in range(i , len(records)):
@@ -28,7 +28,6 @@ if __name__ == '__main__':
                     records[j] = temp   
             
 
-    
     for i in range(0, len(records) - 1):
         if(records[i][1] != records[i+1][1]):
             second_lowest = records[i+1][1]

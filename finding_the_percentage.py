@@ -14,8 +14,6 @@ if __name__ == '__main__':
         
         query_name = input()
     
-   
-    
         record = student_marks[query_name]
     
         average = (record[0] + record[1] + record[2])/3
